@@ -104,11 +104,14 @@ export default function Home() {
                 height={100}
                 className="mx-auto"
               />
-              <h3 className="text-lg pt-8 pb-2 font-medium">MERN Stack Developer</h3>
+              <h3 className="text-lg pt-8 pb-2 font-medium">
+                MERN Stack Developer
+              </h3>
               <p className="py-2">
-              I am adept at MERN stack and have a passion for staying up-to-date with the latest trends and developments in the field.
+                I am adept at MERN stack and have a passion for staying
+                up-to-date with the latest trends and developments in the field.
               </p>
-                {/* <h4 className="py-4 text-teal-600">Environments I use</h4>
+              {/* <h4 className="py-4 text-teal-600">Environments I use</h4>
                 <p className="text-gray-800 py-1">IDLE</p>
                 <p className="text-gray-800 py-1">JDK</p>
                 <p className="text-gray-800 py-1">VSCODE</p> */}
