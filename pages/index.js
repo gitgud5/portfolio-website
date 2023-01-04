@@ -35,7 +35,9 @@ export default function Home() {
       <main className="bg-white px-10 md:px-20 lg:px-40  dark:bg-gray-900">
         <section>
           <nav className="py-8 mb-12 flex justify-between">
-            <h1 className="text-xl font-burtons dark:text-gray-300">Bro Sans</h1>
+            <h1 className="text-xl font-burtons dark:text-gray-300">
+              Bro Sans
+            </h1>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill
@@ -84,10 +86,13 @@ export default function Home() {
           <div>
             <h3 className="text-2xl py-1 dark:text-gray-200">Who Am I?</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-300">
-              I am COMSATS university graduate in Computer Science and also a MERN stack developer. I also have good proficiency in Linux and Github
+              I am COMSATS university graduate in Computer Science and also a
+              MERN stack developer. I also have good proficiency in Linux and
+              Github
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-300">
-              In the future I want to become a data scientist and to make my own machine learning models.
+              In the future I want to become a data scientist and to make my own
+              machine learning models.
             </p>
           </div>
           <div className="lg:flex gap-6 my-20">
@@ -99,30 +104,30 @@ export default function Home() {
                 height={100}
                 className="mx-auto"
               />
-              <h3 className="text-lg pt-8 pb-2 font-medium">Beautiful Code</h3>
+              <h3 className="text-lg pt-8 pb-2 font-medium">MERN Stack Developer</h3>
               <p className="py-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio id
-                corporis libero eaque sequi nemo?
+              I am adept at MERN stack and have a passion for staying up-to-date with the latest trends and developments in the field.
               </p>
-              <h4 className="py-4 text-teal-600">Environments I use</h4>
-              <p className="text-gray-800 py-1">IDLE</p>
-              <p className="text-gray-800 py-1">JDK</p>
-              <p className="text-gray-800 py-1">VSCODE</p>
+                {/* <h4 className="py-4 text-teal-600">Environments I use</h4>
+                <p className="text-gray-800 py-1">IDLE</p>
+                <p className="text-gray-800 py-1">JDK</p>
+                <p className="text-gray-800 py-1">VSCODE</p> */}
             </div>
 
             <div className="text-center shadow-lg p-10 rounded-xl shadow-gray-300 dark:shadow-gray-800 dark:bg-gray-300 ">
               {/* Text center classname in the div tag wsan't working with the image tag. Why??? */}
               <Image src={code} width={100} height={100} className="mx-auto" />
 
-              <h3 className="text-lg pt-8 pb-2 font-medium">Beautiful Code</h3>
+              <h3 className="text-lg pt-8 pb-2 font-medium">Eager to learn</h3>
               <p className="py-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio id
-                corporis libero eaque sequi nemo?
+                I am eager to join a team where I can use my skills and
+                enthusiasm to make a positive impact and contribute to the
+                success of the company.
               </p>
-              <h4 className="py-4 text-teal-600">Environments I use</h4>
+              {/* <h4 className="py-4 text-teal-600">Environments I use</h4>
               <p className="text-gray-800 py-1">IDLE</p>
               <p className="text-gray-800 py-1">JDK</p>
-              <p className="text-gray-800 py-1">VSCODE</p>
+              <p className="text-gray-800 py-1">VSCODE</p> */}
             </div>
 
             <div className="text-center shadow-lg p-10 rounded-xl shadow-gray-300 dark:shadow-gray-800 dark:bg-gray-300">
@@ -134,15 +139,15 @@ export default function Home() {
                 className="mx-auto"
               />
 
-              <h3 className="text-lg pt-8 pb-2 font-medium">Beautiful Code</h3>
+              <h3 className="text-lg pt-8 pb-2 font-medium">Quick Learner</h3>
               <p className="py-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio id
-                corporis libero eaque sequi nemo?
+                I am a quick learner with a desire to continuously improve my
+                skills and knowledge in the field of computer science.
               </p>
-              <h4 className="py-4 text-teal-600">Environments I use</h4>
+              {/* <h4 className="py-4 text-teal-600">Environments I use</h4>
               <p className="text-gray-800 py-1">IDLE</p>
               <p className="text-gray-800 py-1">JDK</p>
-              <p className="text-gray-800 py-1">VSCODE</p>
+              <p className="text-gray-800 py-1">VSCODE</p> */}
             </div>
           </div>
         </section>
@@ -150,7 +155,9 @@ export default function Home() {
         {/* Final section is gonna be here */}
 
         <section>
-          <h3 className="text-3xl py-1 text-gray-800 dark:text-gray-200">Portfolio</h3>
+          <h3 className="text-3xl py-1 text-gray-800 dark:text-gray-200">
+            Portfolio
+          </h3>
           <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-300">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam
             odio adipisci at assumenda debitis natus, molestiae nesciunt tenetur
